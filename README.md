@@ -1,1 +1,3 @@
 # Admin_Dashboard
+
+In this project I am going to be creating a dashboard using flexbox and grid. I am going to try and rely mainly on grid as this was the new thing we just learned. Also, I get the sense that flexbox grid is more useful as it seems like it has more control. Another thing, I am going to try and make everything dynamic and use relative units rather than pixels as I want to get better at building responsive websites! Let's get started!!

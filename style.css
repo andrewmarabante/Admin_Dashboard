@@ -146,24 +146,22 @@ body{
 }
 .toprightbutts{
     flex: 1;
-    background-color: brown;
     display: flex;
     justify-content: center;
     align-items: center;   
 }
 .toprighttop{
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     flex: 1;
-    background-color: aquamarine;
 }
 .butt{
     margin: .7em;
     min-width: 5em;
     min-height:  2em;
     border-radius: 15px;
-    border: solid 1px black;
-    background-color: lightblue;
+    border: none;
+    background-color: rgb(102, 191, 221);
     font-size: 10px;
 }
 .topleft{
@@ -234,4 +232,20 @@ p{
 }
 .mrdoginfo{
     flex: 1;
+}
+#proflogo{
+    margin: 0px;
+    margin-left: 1em;
+    max-width: 30px;
+    max-height: 30px;
+}
+#profname{
+    margin-top: .5em;
+    margin-right: .5em;
+    font-size: 1em;
+    margin-left: 1em;
+}
+#notebell{
+    max-width: 25px;
+    max-height: 25px;
 }

@@ -18,4 +18,5 @@
 .bottom{
     background-color: aqua;
     flex: 5;
+    display: flex;
 }

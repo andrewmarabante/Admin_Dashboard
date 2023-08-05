@@ -14,11 +14,13 @@
 .top{
     background-color: aliceblue;
     flex: 1.3;
+    display: flex;
 }
 .bottom{
     background-color: aqua;
     flex: 5;
     display: flex;
+    padding-right: 1em;
 }
 .botleft{
     flex: 5;
@@ -76,4 +78,36 @@
 .tbox{
     flex: 5;
     border: solid 1px black;
+}
+.topright{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-right: 1em;
+}
+.topleft{
+    flex: 3;
+}
+.toprightbutts{
+    flex: 1;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.toprighttop{
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    background-color: aquamarine;
+}
+.butt{
+    margin: .7em;
+    min-width: 5em;
+    min-height:  2em;
+    border-radius: 15px;
+    border: solid 1px black;
+    background-color: lightblue;
+    font-size: 10px;
+
 }

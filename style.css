@@ -1,6 +1,18 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(124, 161, 218);
+    border-radius: 10px;        /* color of the tracking area */
+  }
+::-webkit-scrollbar-thumb {
+    background-color: rgb(151, 165, 172);    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 1px solid rgb(0, 2, 5);  /* creates padding around scroll thumb */
+  }
 .container{
     display: flex;
     height: 110vh;
@@ -64,7 +76,6 @@ body{
     padding-bottom: 2em;
 }
 .projects{
-    border: solid 1px grey;
     border-left: groove .5em rgb(99, 141, 206);
     background-color: white;
     display: flex;
@@ -72,37 +83,57 @@ body{
     border-radius: .5em;
     padding: .25em;
     box-shadow: .1em .2em rgb(154, 231, 241);
+    overflow: auto;
 }
+
 .botright{
     flex: 2;
-}
-.botright{
     display: flex;
     flex-direction: column;
     padding-bottom: 2em;
+    flex-wrap: nowrap;
 }
 .announcements{
     height: 2em;
-    border: solid 1px black;
     margin-bottom: .5em;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    font-size: 1em;
+    font-weight: 500;
 }
-.abox{
-    border: solid 1px black;
+.abox{ 
+    border-left: groove .5em rgb(99, 141, 206);
+    background-color: white;
     flex: 5;
+    box-shadow: .1em .2em rgb(154, 231, 241);
+    border-radius: .5em;
+    padding: .25em;
+    overflow: auto;
+}
+.anndiv{
+    border-bottom: solid 1px rgb(216, 204, 204);
 }
 .trending{
     height: 2em;
-    border: solid 1px black;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: .1em;
 }
 .tbox{
+    min-height: 0px;
+    border-left: groove .5em rgb(99, 141, 206);
+    background-color: white;
     flex: 5;
-    border: solid 1px black;
+    box-shadow: .1em .2em rgb(154, 231, 241);
+    border-radius: .5em;
+    padding: .25em;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
 }
 .topright{
     flex: 2;
@@ -165,7 +196,6 @@ body{
 .projects .para{
     flex: 5;
     text-align: center;
-    overflow: auto;
 }
 .projects .icons{
     flex: 1;
@@ -188,4 +218,20 @@ h4{
 p{
     margin-top: 0px;
     font-size: .7em;
+}
+.tbox div{
+    height: 2em;
+    display: flex;
+    min-height: 0;
+}
+.mrdog{
+    display: flex;
+    flex-direction: column;
+}
+.mrdogname{
+    flex: 1;
+    margin: 0px;
+}
+.mrdoginfo{
+    flex: 1;
 }

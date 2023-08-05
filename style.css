@@ -109,5 +109,31 @@
     border: solid 1px black;
     background-color: lightblue;
     font-size: 10px;
-
+}
+.topleft{
+    display: flex;
+    flex-direction: column;
+}
+.searchbar{
+    flex: 1;
+    display: flex;
+}
+.usertitle{
+    flex: 4;
+    display: flex;
+}
+.userlogo{
+    flex: 1.3;
+    background-color: blueviolet;
+}
+.username{
+    flex: 5;
+    background-color: green;
+}
+.searchlogo{
+    flex: .8;
+    background-color: yellow;
+}
+.searchtext{
+    flex: 5;
 }
